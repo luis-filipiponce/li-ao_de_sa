@@ -1,13 +1,13 @@
 candidatos = []
 votos = []
 
-candidato = input("Candidato (fim para parar): ")
+candidato = input("Candidato: ")
 while candidato != "fim":
     candidatos.append(candidato)
     votos.append(0)
     candidato = input("Candidato (fim para parar): ")
 
-voto = input("Vote no candidato (fim para parar): ")
+voto = input("Vote no candidato: ")
 while voto != "fim":
     if voto in candidatos:
         pos = candidatos.index(voto)

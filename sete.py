@@ -1,16 +1,18 @@
 estoque_nomes = []
-estoque_qtde = []
+estoque_qt = []
 
 opcao = ""
 while opcao != "3":
-    print("1-Adicionar 2-Mostrar 3-Sair")
+    print("\n1-Adicionar")
+    print("2-Mostrar")
+    print("3-Sair")
     opcao = input("Opção: ")
 
     if opcao == "1":
         nome = input("Produto: ")
         qtde = int(input("Quantidade: "))
         estoque_nomes.append(nome)
-        estoque_qtde.append(qtde)
+        estoque_qt.append(qtde)
     elif opcao == "2":
         for i in range(len(estoque_nomes)):
-            print(f"{estoque_nomes[i]}: {estoque_qtde[i]}")
+            print(f"{estoque_nomes[i]}: {estoque_qt[i]}")

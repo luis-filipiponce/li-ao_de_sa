@@ -3,7 +3,10 @@ precos = []
 
 opcao = ""
 while opcao != "4":
-    print("1-Adicionar 2-Remover 3-Mostrar 4-Sair")
+    print("\n1-Adicionar ")
+    print("2-Remover ")
+    print("3-Mostrar")
+    print("4-Sair")
     opcao = input("Opção: ")
 
     if opcao == "1":

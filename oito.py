@@ -1,6 +1,6 @@
 filmes = []
 
-filme = input("Filme (fim para parar): ")
+filme = input("Filme: ")
 while filme != "fim":
     ano = input("Ano: ")
     filmes.append(filme + " (" + ano + ")")
