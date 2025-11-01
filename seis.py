@@ -1,6 +1,6 @@
 usuarios = []
 
-nome = input("Nome (sair para parar): ")
+nome = input("Nome:")
 while nome != "sair":
     senha = input("Senha: ")
     usuarios.append(nome)
